@@ -1,7 +1,6 @@
 ( function( $ ) {
- 
- $( document ).ready( function() {
-        body = $( document.body );
+    $(document).ready( function() {
+        
     }
 )
 

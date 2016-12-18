@@ -5,12 +5,8 @@ Description: The wordpress theme for uclaband.com
 Version: 0.0.1
 */
 
-html{
-    margin-top: 0 !important;
-}
-
 body {
-    background-image: url("/wp-content/themes/uclaband/images/background.jpeg");
+    background-image: url("/wp-content/themes/UCLA Band Theme/images/background.jpeg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -32,6 +28,7 @@ td {
     padding: 0;
 }
 
+/*page titles, top 'Marching Band'*/
 .title {
     font-family: 'Mirza', serif;
     font-weight: 600;
@@ -39,24 +36,20 @@ td {
     color: #0073cf;
 }
 
+/*top 'The Solid Gold Sound'*/
 .flourish {
     font-family: 'Leckerli One', serif;
     letter-spacing: 0.2vmin;
     padding-right:0.4vmin;
 }
 
+/*applied to both top title and top flourish*/
 .top {
     margin: -3.4vmin 0 -3.9vmin 0.8vmin;
     color: #ffb300;
 }
 
-.icon {
-    width: 24pt;
-    height: 24pt;
-    margin: 2pt;
-    object-fit: contain;
-}
-
+/*all elements with white background*/
 .card {
     background-color: white;
     padding: 1vmin;
@@ -64,22 +57,34 @@ td {
     box-shadow: 0pt 2pt 4px rgba(0, 0, 0, 0.6);
 }
 
+/*container of social icons in the top right*/
 .social {
     padding: 8pt;
     margin-bottom: 16pt;
 }
 
+/*buttons for each social icon*/
 .social a {
     padding: 4pt;
 }
 
+/*social icons*/
+.social img {
+    width: 24pt;
+    height: 24pt;
+    margin: 2pt;
+    object-fit: contain;
+}
+
+/*image and video sliders on the home page*/
 #home-sliders .slider{
     width: 38.5vw;
     height: 21.66vw;
-    max-width: 77vh;
+    max-width: 77vh;  /*so that they do not become too large on wide displays*/
     max-height: 43.32vh;
 }
 
+/*spacers added on the left and right of the sliders*/
 #home-sliders .spacer{
-    width: calc((38.5vw - 77vh) / 2);
+    width: calc((38.5vw - 77vh) / 2);   /*keeps sliders well centered at their max dimensions*/
 }

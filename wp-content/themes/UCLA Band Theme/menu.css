@@ -28,9 +28,10 @@
     cursor: default;
 }
 
+/*spacers on either side of each menu element in order to spread menu evenly*/
 #menu .spacer {
     min-width: 10pt;
-    width: calc((76vw - 405pt) / 14.0);
+    width: calc((76vw - 405pt) / 14.0); /*this calc is specific to our menu, needs to be changed if menu titles are changed*/
 }
 
 #menu li {

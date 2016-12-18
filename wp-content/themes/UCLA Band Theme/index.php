@@ -1,14 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="margin-top: 0 !important;">
 
 <head>
-<meta charset="UTF-8">
-<title>UCLA Band - <?php global $post; echo $post->post_title;?></title>
-<?php wp_head(); ?>
-<script type="text/javascript" src="<?php bloginfo('template_directory');?>/functions.js"></script>
-<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Mirza:400,600|Leckerli+One" />
-<link href="<?php bloginfo('template_directory');?>/style.css" rel="stylesheet" type="text/css">
-<link href="<?php bloginfo('template_directory');?>/menu.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <title>UCLA Band - <?php global $post; echo $post->post_title;?></title>
+    <?php wp_head(); ?>
+    <script type="text/javascript" src="<?php bloginfo('template_directory');?>/functions.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Mirza:400,600|Leckerli+One" />
 </head>
 
 <body>
@@ -18,22 +16,22 @@
     <tr>
         <td>
             <a href="https://www.youtube.com/user/UCLABandVideoProject" target="_blank">
-                <img class="icon" src="<?php bloginfo('template_directory');?>/images/icon-youtube.png">
+                <img src="<?php bloginfo('template_directory');?>/images/icon-youtube.png">
             </a>
         </td>
         <td>
             <a href="https://www.facebook.com/uclabruinband/" target="_blank">
-                <img class="icon" src="<?php bloginfo('template_directory');?>/images/icon-facebook.png" >
+                <img src="<?php bloginfo('template_directory');?>/images/icon-facebook.png" >
             </a>
         </td>
         <td>
             <a href="https://www.instagram.com/uclabruinmarchingband/" target="_blank">
-                <img class="icon" src="<?php bloginfo('template_directory');?>/images/icon-instagram.png">
+                <img src="<?php bloginfo('template_directory');?>/images/icon-instagram.png">
             </a>
         </td>
         <td>
             <a href="https://twitter.com/UCLABruinBand/" target="_blank">
-                <img class="icon" src="<?php bloginfo('template_directory');?>/images/icon-twitter.png">
+                <img src="<?php bloginfo('template_directory');?>/images/icon-twitter.png">
             </a>
         </td>
     </tr>
