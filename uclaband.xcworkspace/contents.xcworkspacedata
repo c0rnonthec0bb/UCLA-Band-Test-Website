@@ -1724,6 +1724,9 @@
                   location = "group:index.php">
                </FileRef>
                <FileRef
+                  location = "group:top.php">
+               </FileRef>
+               <FileRef
                   location = "group:menu.php">
                </FileRef>
                <FileRef
