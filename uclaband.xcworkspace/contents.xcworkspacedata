@@ -1712,8 +1712,8 @@
             location = "group:themes"
             name = "themes">
             <Group
-               location = "group:UCLA-Band-Theme"
-               name = "UCLA-Band-Theme">
+               location = "group:UCLA Band Theme"
+               name = "UCLA Band Theme">
                <FileRef
                   location = "group:contentpage.php">
                </FileRef>
@@ -2292,9 +2292,6 @@
                      </FileRef>
                   </Group>
                </Group>
-               <FileRef
-                  location = "group:README.md">
-               </FileRef>
                <FileRef
                   location = "group:style.css">
                </FileRef>
