@@ -1715,6 +1715,21 @@
                location = "group:UCLA Band Theme"
                name = "UCLA Band Theme">
                <FileRef
+                  location = "group:style.css">
+               </FileRef>
+               <FileRef
+                  location = "group:menu.css">
+               </FileRef>
+               <FileRef
+                  location = "group:index.php">
+               </FileRef>
+               <FileRef
+                  location = "group:menu.php">
+               </FileRef>
+               <FileRef
+                  location = "group:homepage.php">
+               </FileRef>
+               <FileRef
                   location = "group:contentpage.php">
                </FileRef>
                <FileRef
@@ -1722,9 +1737,6 @@
                </FileRef>
                <FileRef
                   location = "group:functions.php">
-               </FileRef>
-               <FileRef
-                  location = "group:homepage.php">
                </FileRef>
                <Group
                   location = "group:images"
@@ -1748,15 +1760,6 @@
                      location = "group:logo-gold.png">
                   </FileRef>
                </Group>
-               <FileRef
-                  location = "group:index.php">
-               </FileRef>
-               <FileRef
-                  location = "group:menu.css">
-               </FileRef>
-               <FileRef
-                  location = "group:menu.php">
-               </FileRef>
                <Group
                   location = "group:plugins"
                   name = "plugins">
@@ -2292,9 +2295,6 @@
                      </FileRef>
                   </Group>
                </Group>
-               <FileRef
-                  location = "group:style.css">
-               </FileRef>
             </Group>
             <FileRef
                location = "group:index.php">
