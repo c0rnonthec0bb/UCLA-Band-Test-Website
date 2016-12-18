@@ -1,0 +1,85 @@
+/*
+Theme Name: UCLA-Band-Theme
+Author: Adam Cobb
+Description: The wordpress theme for uclaband.com
+Version: 0.0.1
+*/
+
+html{
+    margin-top: 0 !important;
+}
+
+body {
+    background-image: url("/wp-content/themes/uclaband/images/background.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center top;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+table {
+    border-spacing: 0;
+}
+
+tr {
+    border-spacing: 0;
+}
+
+td {
+    border-spacing: 0;
+    padding: 0;
+}
+
+.title {
+    font-family: 'Mirza', serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #0073cf;
+}
+
+.flourish {
+    font-family: 'Leckerli One', serif;
+    letter-spacing: 0.2vmin;
+    padding-right:0.4vmin;
+}
+
+.top {
+    margin: -3.4vmin 0 -3.9vmin 0.8vmin;
+    color: #ffb300;
+}
+
+.icon {
+    width: 24pt;
+    height: 24pt;
+    margin: 2pt;
+    object-fit: contain;
+}
+
+.card {
+    background-color: white;
+    padding: 1vmin;
+    border-radius: 3pt;
+    box-shadow: 0pt 2pt 4px rgba(0, 0, 0, 0.6);
+}
+
+.social {
+    padding: 8pt;
+    margin-bottom: 16pt;
+}
+
+.social a {
+    padding: 4pt;
+}
+
+#home-sliders .slider{
+    width: 38.5vw;
+    height: 21.66vw;
+    max-width: 77vh;
+    max-height: 43.32vh;
+}
+
+#home-sliders .spacer{
+    width: calc((38.5vw - 77vh) / 2);
+}

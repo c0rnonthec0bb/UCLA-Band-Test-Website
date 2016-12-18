@@ -1,0 +1,87 @@
+
+#menu {
+    font-size:16pt;
+    font-family:'Mirza',serif;
+    font-weight:bold;
+    list-style:none;
+    width:76vw;
+    margin:0 10vw 10pt 10vw;
+    float: left;
+    left: 0;
+    right: 0;
+    position: relative;
+    padding:0 2vw;
+    color:#0073cf;
+    align:center;
+}
+
+#menu a { /*padding done w/ spacers*/
+    display:block;
+    text-decoration:none;
+    padding:8pt 0 3pt 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+#menu .spacer {
+    min-width: 10pt;
+    width: calc((76vw - 405pt) / 14.0);
+}
+
+#menu li {
+    position: relative;
+    float:left;
+}
+#menu ul {
+    position:absolute;
+    z-index:999;
+    left:-999em;
+    height:auto;
+    width:120pt;
+    margin:0;
+    list-style:none;
+    float:left;
+    padding: 0;
+}
+#menu li li {
+    width:120pt;
+}
+#menu li li a {
+    padding-left: 10pt;
+    padding-right: 10pt;
+    font-size:14pt;
+    color:#0073cf;
+    cursor: pointer;
+}
+#menu li ul ul {
+    margin:-23pt 0 0 100pt;
+}
+#menu li li:hover {
+    background:#e5a100;
+}
+#menu li ul li:hover a, #menu li ul li li:hover a, #menu li ul li li li:hover a, #menu li ul li li li:hover a {
+    color:#0073cf;
+}
+#menu li:hover, #menu li.sfhover {
+    color:#0073cf;
+}
+#menu li:hover li a, #menu li li:hover li a, #menu li li li:hover li a, #menu li li li li:hover li a {
+    color:#0073cf;
+}
+#menu li:hover ul ul, #menu li:hover ul ul ul, #menu li:hover ul ul ul ul, #menu li.sfhover ul ul, #menu li.sfhover ul ul ul, #menu li.sfhover ul ul ul ul {
+    left:-999em;
+}
+#menu li:hover ul, #menu li li:hover ul, #menu li li li:hover ul, #menu li li li li:hover ul, #menu li.sfhover ul, #menu li li.sfhover ul, #menu li li li.sfhover ul, #menu li li li li.sfhover ul {
+    left:auto;
+    background:#ffb300;
+    box-shadow: 0pt 1pt 6px rgba(0, 0, 0, 0.8);
+}
+#menu li:hover, #menu li.sfhover {
+    background:#ddd;
+    box-shadow: 0pt 1pt 4px rgba(0, 0, 0, 0.2);
+}
