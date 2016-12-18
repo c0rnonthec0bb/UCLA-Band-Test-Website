@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Mirza:400,600|Leckerli+One" />
 </head>
 
-<body>
+<body style="background-image: url(<?php bloginfo('template_directory'); echo "/images/background.jpeg)";?>" >
 
 <div align="right">
 <table class="social">
