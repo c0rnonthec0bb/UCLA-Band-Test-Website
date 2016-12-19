@@ -1,11 +1,10 @@
 
 #menu {
-    font-size:16pt;
-    font-family:'Mirza',serif;
-    font-weight:bold;
     list-style:none;
     width:76vw;
-    margin:0 10vw 10pt 10vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 0;
     float: left;
     left: 0;
     right: 0;
@@ -18,6 +17,7 @@
 #menu a { /*padding done w/ spacers*/
     display:block;
     text-decoration:none;
+    margin: 0;
     padding:8pt 0 3pt 0;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -31,11 +31,11 @@
 /*spacers on either side of each menu element in order to spread menu evenly*/
 #menu .spacer {
     min-width: 10pt;
-    width: calc((76vw - 405pt) / 14.0); /*this calc is specific to our menu, needs to be changed if menu titles are changed*/
+    width: calc((76vw - 405pt) / 2 / 7); /*this calc is specific to our menu, needs to be changed if menu titles are changed.  The second number is the width of the titles without spacing and the last number is the number of titles.*/
 }
 
 #menu li {
-    position: relative;
+    position: static;
     float:left;
 }
 #menu ul {

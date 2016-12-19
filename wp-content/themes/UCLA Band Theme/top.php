@@ -1,6 +1,6 @@
 
 <div align="right">
-    <table class="social">
+    <table id="social">
         <tr>
             <td>
                 <a href="https://www.youtube.com/user/UCLABandVideoProject" target="_blank">
@@ -26,17 +26,17 @@
     </table>
 </div>
 
-<div align="center" style="margin-top: -3vw; margin-bottom: 4vmin;">
+<div id="top" align="center">
     <div style="width: 80vmin;">
-        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" style="text-decoration:none;">
+        <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
             <table style="margin:0;">
                 <tr>
                     <td>
-                        <img src="<?php bloginfo('template_directory');?>/images/logo-gold.png" style="width: 16vmin;" >
+                        <img src="<?php bloginfo('template_directory');?>/images/logo-gold.png" >
                     </td>
-                    <td align="right">
-                        <p class="top title" style="font-size: 8vmin;">Marching Band</p>
-                        <p class="top flourish" style="font-size: 3.8vmin">"The Solid Gold Sound"</p>
+                    <td align="right" >
+                        <p class="title">Marching Band</p>
+                        <p class="flourish">"The Solid Gold Sound"</p>
                     </td>
                 </tr>
             </table>

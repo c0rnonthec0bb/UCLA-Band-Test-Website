@@ -14,6 +14,15 @@ body {
     padding: 0 !important;
 }
 
+p {
+    padding: 0 3pt;
+    margin: 0;
+    font-family: 'Roboto', serif;
+    font-weight: 300;
+    font-size: 11pt;
+    color: black;
+}
+
 table {
     border-spacing: 0;
 }
@@ -23,29 +32,13 @@ tr {
 }
 
 td {
+    vertical-align: top;
     border-spacing: 0;
     padding: 0;
 }
 
-/*page titles, top 'Marching Band'*/
-.title {
-    font-family: 'Mirza', serif;
-    font-weight: 600;
-    font-size: 16px;
-    color: #0073cf;
-}
-
-/*top 'The Solid Gold Sound'*/
-.flourish {
-    font-family: 'Leckerli One', serif;
-    letter-spacing: 0.2vmin;
-    padding-right:0.4vmin;
-}
-
-/*applied to both top title and top flourish*/
-.top {
-    margin: -3.4vmin 0 -3.9vmin 0.8vmin;
-    color: #ffb300;
+ul {
+    margin: 0;
 }
 
 /*all elements with white background*/
@@ -54,21 +47,98 @@ td {
     padding: 1vmin;
     border-radius: 3pt;
     box-shadow: 0pt 2pt 4px rgba(0, 0, 0, 0.6);
+    margin-bottom: 16pt;
+}
+
+/*page titles, top 'Marching Band'*/
+.title {
+    font-family: 'Mirza', serif;
+    font-weight: 600;
+    font-size: 16pt;
+    color: #0073cf;
+    margin-top: 5pt;
+}
+
+/*gold buttons, such as those on the home page*/
+.button{
+    text-decoration:none;
+}
+
+.button p{
+    margin: 5pt 3pt;
+    padding: 5pt 5pt 0 5pt;
+    background-color: #ffb300;
+    border-radius: 3pt;
+    color: #0073cf;
+    font-family: 'Mirza', serif;
+    font-weight: 600;
+    font-size: 12pt;
+    box-shadow: 0pt 1pt 4px rgba(0, 0, 0, 0.2);
+}
+
+.button p:hover{
+    background-color: #e5a100;
+    box-shadow: 0pt 2pt 4px rgba(0, 0, 0, 0.3);
+}
+
+
+/*the div to be filled by javascript, on every page*/
+#contentArea{
+    width: 80vw;
+}
+
+/* div containing top title elements */
+#top {
+    margin-top: -3vw;
+    margin-bottom: 4vmin;
+}
+
+#top td{
+    vertical-align: middle;
+}
+
+/* button for returning home*/
+#top a{
+    text-decoration:none;
+}
+
+/* UCLA BRUIN image*/
+#top img {
+    width: 16vmin;
+}
+
+/*applied to both top title and top flourish*/
+#top p{
+    margin: -3.4vmin 0 -3.9vmin 0.8vmin;
+    color: #ffb300;
+}
+
+/* 'Marching Band' */
+#top .title{
+    font-size: 8vmin;
+}
+
+/*'The Solid Gold Sound'*/
+#top .flourish {
+    font-size: 3.8vmin;
+    font-family: 'Leckerli One', serif;
+    letter-spacing: 0.2vmin;
+    padding-right:0.4vmin;
 }
 
 /*container of social icons in the top right*/
-.social {
+#social {
     padding: 8pt;
     margin-bottom: 16pt;
 }
 
 /*buttons for each social icon*/
-.social a {
+#social a {
     padding: 4pt;
 }
 
 /*social icons*/
-.social img {
+#social img {
     width: 24pt;
     height: 24pt;
     margin: 2pt;

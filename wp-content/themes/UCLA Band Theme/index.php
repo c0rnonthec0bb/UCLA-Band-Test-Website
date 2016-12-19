@@ -5,20 +5,27 @@
     <meta charset="UTF-8">
     <title>UCLA Band - <?php global $post; echo $post->post_title;?></title>
     <?php wp_head(); ?>
-    <script type="text/javascript" src="<?php bloginfo('template_directory');?>/functions.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Mirza:400,600|Leckerli+One" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Mirza:400,600|Leckerli+One|Roboto:300" />
 </head>
 
 <body style="background-image: url(<?php bloginfo('template_directory'); echo "/images/background.jpeg)";?>" >
 
+<?php include 'top.php'; ?>
+
+<table align="center">
+<tr>
+<td>
+
 <?php
-    include 'top.php';
-    
     if ( is_home()){
-        include 'homepage.php';
+        include 'homesliders.php';
     }else{
         include 'menu.php';
-        include 'contentpage.php';
     }?>
+</td></tr><tr><td>
+
+        <div id="contentArea" align="left"></div>
+
+</td></tr></table>
 
 </body>

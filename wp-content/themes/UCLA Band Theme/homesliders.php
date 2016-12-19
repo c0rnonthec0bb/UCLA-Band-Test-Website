@@ -18,7 +18,3 @@
         </tr>
     </table>
 </div>
-
-<div align="center" style="padding-top:20pt">
-    <a class="title top" href="<?php echo esc_url( home_url( '/' ) ); ?>about/general-info/" >Click here to go to the General Info page (temporary)</a>
-</div>

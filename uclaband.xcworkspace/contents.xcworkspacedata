@@ -1730,16 +1730,16 @@
                   location = "group:menu.php">
                </FileRef>
                <FileRef
-                  location = "group:homepage.php">
-               </FileRef>
-               <FileRef
-                  location = "group:contentpage.php">
-               </FileRef>
-               <FileRef
-                  location = "group:functions.js">
+                  location = "group:/Users/Adam/OneDrive/UCLA-Band-Test-Website/wp-content/themes/UCLA Band Theme/homesliders.php">
                </FileRef>
                <FileRef
                   location = "group:functions.php">
+               </FileRef>
+               <FileRef
+                  location = "group:/Users/Adam/OneDrive/UCLA-Band-Test-Website/wp-content/themes/UCLA Band Theme/homefunctions.js">
+               </FileRef>
+               <FileRef
+                  location = "group:contentfunctions.js">
                </FileRef>
                <Group
                   location = "group:images"
