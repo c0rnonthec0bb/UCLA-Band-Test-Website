@@ -1,4 +1,5 @@
 
+<div style="width:80vw">
 <ul id="menu" class="card" >
 <?php
     global $post;
@@ -33,3 +34,4 @@
         echo "</ul></li>";
     }?>
 </ul>
+</div>

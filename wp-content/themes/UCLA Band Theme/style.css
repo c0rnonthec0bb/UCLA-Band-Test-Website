@@ -15,11 +15,28 @@ body {
 }
 
 p {
-    padding: 0 3pt;
+    padding: 5pt 3pt;
     margin: 0;
     font-family: 'Roboto', serif;
     font-weight: 300;
     font-size: 11pt;
+    color: black;
+}
+
+span {
+    padding: 0 3pt;
+    font-family: 'Roboto', serif;
+    font-weight: 300;
+    font-size: 11pt;
+    color: black;
+}
+
+h1 {
+    padding: 8pt 3pt 0 3pt;
+    margin: 0;
+    font-family: 'Mirza', serif;
+    font-weight: 600;
+    font-size: 17pt;
     color: black;
 }
 
@@ -44,7 +61,7 @@ ul {
 /*all elements with white background*/
 .card {
     background-color: white;
-    padding: 1vmin;
+    padding: 1.5vmin;
     border-radius: 3pt;
     box-shadow: 0pt 2pt 4px rgba(0, 0, 0, 0.6);
     margin-bottom: 16pt;
@@ -54,9 +71,9 @@ ul {
 .title {
     font-family: 'Mirza', serif;
     font-weight: 600;
-    font-size: 16pt;
+    font-size: 20pt;
     color: #0073cf;
-    margin-top: 5pt;
+    padding: 5pt 0 0 0;
 }
 
 /*gold buttons, such as those on the home page*/
@@ -67,18 +84,19 @@ ul {
 .button p{
     margin: 5pt 3pt;
     padding: 5pt 5pt 0 5pt;
-    background-color: #ffb300;
+    background-color: #ffd800;
     border-radius: 3pt;
     color: #0073cf;
     font-family: 'Mirza', serif;
     font-weight: 600;
-    font-size: 12pt;
-    box-shadow: 0pt 1pt 4px rgba(0, 0, 0, 0.2);
+    font-size: 14pt;
+    box-shadow: 0pt 1pt 2px rgba(0, 0, 0, 0.2);
 }
 
 .button p:hover{
     background-color: #e5a100;
-    box-shadow: 0pt 2pt 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0pt 2pt 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
 }
 
 
@@ -110,7 +128,8 @@ ul {
 /*applied to both top title and top flourish*/
 #top p{
     margin: -3.4vmin 0 -3.9vmin 0.8vmin;
-    color: #ffb300;
+    color: #ffd800;
+    padding: 0;
 }
 
 /* 'Marching Band' */
@@ -123,7 +142,7 @@ ul {
     font-size: 3.8vmin;
     font-family: 'Leckerli One', serif;
     letter-spacing: 0.2vmin;
-    padding-right:0.4vmin;
+    padding-right:0.3vmin;
 }
 
 /*container of social icons in the top right*/
@@ -143,6 +162,17 @@ ul {
     height: 24pt;
     margin: 2pt;
     object-fit: contain;
+}
+
+/* footer text */
+#foot {
+    padding: 16pt 0;
+}
+
+#foot p{
+    padding-top: 0pt;
+    font-size: 12pt;
+    color: #ffd800;
 }
 
 /*image and video sliders on the home page*/

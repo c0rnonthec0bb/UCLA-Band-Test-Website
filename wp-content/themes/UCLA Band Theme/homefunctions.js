@@ -1,23 +1,31 @@
 ( function( $ ) {
     $(window).load( function() {
-                      var contentArea = document.getElementById('contentArea');
-                   contentArea.innerHTML = pagePreviews(contentArea.offsetWidth);
+                   makePagePreviews(true);
     })
                       
     $(window).resize( function(){
-                       var contentArea = document.getElementById('contentArea');
-                     contentArea.innerHTML = pagePreviews(contentArea.offsetWidth);
+                     
+                     makePagePreviews(false);
     })
  
- function pagePreviews(contentAreaWidth){
+ var currentNumColumns = 0;
+ 
+ function makePagePreviews(onLoad){
+ 
+ var contentArea = document.getElementById('contentArea');
 
  var pages = global_vars.pages;
  var pageSubpages = global_vars.pageSubpages;
  var pageSubpageLinks = global_vars.pageSubpageLinks;
  
- var numColumns = Math.max(1, Math.min(pages.length, Math.floor(contentAreaWidth / 250)));
+ var numColumns = Math.max(1, Math.min(pages.length, Math.floor(contentArea.offsetWidth / 250)));
  
- var columnWidth = 'calc((' + contentAreaWidth + 'px - (' + numColumns + ' -  1) * 16pt) / ' + numColumns + ')';
+ if(!onLoad && numColumns == currentNumColumns){
+    return;
+ }
+ currentNumColumns = numColumns;
+ 
+ var columnWidth = 'calc((80vw - (' + numColumns + ' -  1) * 16pt) / ' + numColumns + ')';
  
  var pageNumsByColumn;
  
@@ -59,7 +67,7 @@
  
  result += '</tr></table>';
  
- return result;
+ contentArea.innerHTML = result;
  }
  
  function pagePreview(page, subpages, links){

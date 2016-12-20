@@ -1733,6 +1733,9 @@
                   location = "group:/Users/Adam/OneDrive/UCLA-Band-Test-Website/wp-content/themes/UCLA Band Theme/homesliders.php">
                </FileRef>
                <FileRef
+                  location = "group:404.php">
+               </FileRef>
+               <FileRef
                   location = "group:functions.php">
                </FileRef>
                <FileRef

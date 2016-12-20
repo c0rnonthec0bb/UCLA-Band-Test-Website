@@ -11,6 +11,7 @@
     
         }else{
             wp_enqueue_script( 'contentfunctions', get_template_directory_uri() . '/contentfunctions.js', array ( 'jquery' ));
+            wp_localize_script('contentfunctions', 'global_vars', contentParams());
         }
     }
     
@@ -52,5 +53,49 @@
                       'pageSubpages' => $pageSubpages,
                       'pageSubpageLinks' => $pageSubpageLinks
          );
+    }
+    
+    function contentParams(){
+        global $post;
+        
+        $title;
+        $content;
+        $parent;
+        $id;
+        
+        if($post->post_parent == 0){
+            $title = '';
+            $content = NULL;
+            $id = 0;
+            $parent = $post;
+        }else{
+            $title = get_the_title();
+            $content = get_the_content();
+            $content = apply_filters( 'the_content', $content );
+            $content = str_replace( ']]>', ']]&gt;', $content );
+            $id = get_the_ID();
+            $parent = get_page($post->post_parent);
+        }
+        
+        $subargs = array(
+                         'sort_column' => 'menu_order',
+                         'parent' => $parent->ID
+                         );
+        $subpages = get_pages($subargs);
+        
+        $subpageLinks = array();
+        
+        foreach ($subpages as $subpage){
+            $subpageLinks[] = get_page_link($subpage->ID);
+        }
+        
+        return array(
+                     'parent' => $parent,
+                     'subpages' => $subpages,
+                     'subpageLinks' => $subpageLinks,
+                     'title' => $title,
+                     'content' => $content,
+                     'id' => $id
+                     );
     }
 ?>

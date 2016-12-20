@@ -1,10 +1,8 @@
 
 #menu {
     list-style:none;
-    width:76vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
     margin-top: 0;
+    width: 76vw; /*due to padding*/
     float: left;
     left: 0;
     right: 0;
@@ -18,7 +16,7 @@
     display:block;
     text-decoration:none;
     margin: 0;
-    padding:8pt 0 3pt 0;
+    padding:3pt 0;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -32,6 +30,10 @@
 #menu .spacer {
     min-width: 10pt;
     width: calc((76vw - 405pt) / 2 / 7); /*this calc is specific to our menu, needs to be changed if menu titles are changed.  The second number is the width of the titles without spacing and the last number is the number of titles.*/
+}
+
+#menu td{
+    font-size: 16pt;
 }
 
 #menu li {
@@ -53,12 +55,11 @@
     width:120pt;
 }
 #menu li li a {
-    padding-left: 10pt;
-    padding-right: 10pt;
     font-size:14pt;
-    color:#0073cf;
+    padding: 8pt 10pt 3pt 10pt;
     cursor: pointer;
 }
+
 #menu li ul ul {
     margin:-23pt 0 0 100pt;
 }

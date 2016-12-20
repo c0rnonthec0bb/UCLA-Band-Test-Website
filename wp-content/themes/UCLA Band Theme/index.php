@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" style="margin-top: 0 !important;">
 
+<?php the_post(); ?>
+
 <head>
     <meta charset="UTF-8">
-    <title>UCLA Band - <?php global $post; echo $post->post_title;?></title>
+<title>UCLA Band - <?php if(is_home()){echo 'Home';}else{the_title();}?></title>
     <?php wp_head(); ?>
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Mirza:400,600|Leckerli+One|Roboto:300" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Mirza:400,600|Leckerli+One|Roboto:300,700" />
 </head>
 
 <body style="background-image: url(<?php bloginfo('template_directory'); echo "/images/background.jpeg)";?>" >
@@ -22,10 +24,18 @@
     }else{
         include 'menu.php';
     }?>
-</td></tr><tr><td>
+
+</td></tr><tr><td align="center">
 
         <div id="contentArea" align="left"></div>
 
-</td></tr></table>
+</td></tr>
+
+<tr><td id="foot" align="center">
+    <p class="title">Copyright ©<?php echo date("Y")?> UC Regents, UCLA Bands</p>
+    <p class="title">Website by Adam Cobb and Adam Jones</p>
+</td></tr>
+
+</table>
 
 </body>
