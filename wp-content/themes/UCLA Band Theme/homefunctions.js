@@ -13,7 +13,6 @@
  function makePagePreviews(onLoad){
  
  var contentArea = document.getElementById('contentArea');
- var body = document.body;
 
  var pages = global_vars.pages;
  var pageSubpages = global_vars.pageSubpages;

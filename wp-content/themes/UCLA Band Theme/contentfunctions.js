@@ -27,11 +27,7 @@
     return;
   }
   
-  var stacked = contentArea.offsetWidth < 600;
-  
-  if (/Mobi/.test(navigator.userAgent)) {
-  stacked = true;
-  }
+  var stacked = window.innerWidth / window.innerHeight < 1.25;
   
   if(!onLoad && currentStacked == stacked){
     return;
@@ -44,8 +40,8 @@
     result += '<tr><td style="width: 80vw">' + parentView(parent, subpages, subpageLinks, id) + '</td></tr>';
   result += '<tr><td style="width: 80vw">' + contentView(title, content, stacked) + '</td></tr>';
   }else{
-    result += '<tr><td style="width: calc(10vw + 80pt)">' + parentView(parent, subpages, subpageLinks, id) + '</td>';
-    result += '<td style="width: calc(70vw - 96pt); padding-left: 16pt;">' + contentView(title, content, stacked) + '</td></tr>';
+    result += '<tr><td style="width: calc(5vw + 30vh)">' + parentView(parent, subpages, subpageLinks, id) + '</td>';
+    result += '<td style="width: calc(75vw - 30vh - 16pt); padding-left: 16pt;">' + contentView(title, content, stacked) + '</td></tr>';
   }
   
   result += '</table>';

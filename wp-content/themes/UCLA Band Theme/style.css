@@ -14,7 +14,14 @@ Version: 0.0.1
     
 }
 
+html {
+    overflow-y: hidden;
+}
 body {
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling:touch;
     background: url("/wp-content/themes/UCLA Band Theme/images/background.jpeg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -157,20 +164,20 @@ ul {
 
 /*container of social icons in the top right*/
 #social {
-    padding: 8pt;
-    margin-bottom: 16pt;
+    padding: 2vh;
+    margin-bottom: 3vh;
 }
 
 /*buttons for each social icon*/
 #social a {
-    padding: 4pt;
+    padding: 1vh;
 }
 
 /*social icons*/
 #social img {
-    width: 24pt;
-    height: 24pt;
-    margin: 2pt;
+    width: 5vh;
+    height: 5vh;
+    margin: 0.5vh;
     object-fit: contain;
 }
 
