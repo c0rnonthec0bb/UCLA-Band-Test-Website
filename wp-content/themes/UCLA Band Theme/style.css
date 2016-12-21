@@ -5,38 +5,48 @@ Description: The wordpress theme for uclaband.com
 Version: 0.0.1
 */
 
+@font-face {
+    font-family: 'Mirza';
+    src: url('/wp-content/themes/UCLA Band Theme/fonts/mirza-semibold-webfont.woff2') format('woff2'),
+    url('/wp-content/themes/UCLA Band Theme/fonts/mirza-semibold-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: serif;
+    
+}
+
 body {
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background: url("/wp-content/themes/UCLA Band Theme/images/background.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-position: center top;
     margin: 0 !important;
     padding: 0 !important;
 }
 
 p {
-    padding: 5pt 3pt;
+    padding: 0.5em 0.8em;
     margin: 0;
     font-family: 'Roboto', serif;
     font-weight: 300;
-    font-size: 11pt;
+    font-size: 2.2vh;
     color: black;
 }
 
 span {
-    padding: 0 3pt;
+    padding: 0.2em 0;
     font-family: 'Roboto', serif;
     font-weight: 300;
-    font-size: 11pt;
+    font-size: 2.1vh;
     color: black;
 }
 
 h1 {
-    padding: 8pt 3pt 0 3pt;
+    padding: 0;
     margin: 0;
     font-family: 'Mirza', serif;
     font-weight: 600;
-    font-size: 17pt;
+    font-size: 3.3vh;
     color: black;
 }
 
@@ -63,17 +73,17 @@ ul {
     background-color: white;
     padding: 1.5vmin;
     border-radius: 3pt;
-    box-shadow: 0pt 2pt 4px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 1vh 2vh rgba(0, 0, 0, 0.6);
     margin-bottom: 16pt;
 }
 
 /*page titles, top 'Marching Band'*/
 .title {
+    padding: 0;
     font-family: 'Mirza', serif;
     font-weight: 600;
-    font-size: 20pt;
+    font-size: 3.8vh;
     color: #0073cf;
-    padding: 5pt 0 0 0;
 }
 
 /*gold buttons, such as those on the home page*/
@@ -82,20 +92,20 @@ ul {
 }
 
 .button p{
-    margin: 5pt 3pt;
-    padding: 5pt 5pt 0 5pt;
-    background-color: #ffd800;
+    margin: 0.5em 0.3em;
+    padding: 0 0.8em;
+    background-color: #ffcf00;
     border-radius: 3pt;
     color: #0073cf;
     font-family: 'Mirza', serif;
     font-weight: 600;
-    font-size: 14pt;
-    box-shadow: 0pt 1pt 2px rgba(0, 0, 0, 0.2);
+    font-size: 2.8vh;
+    box-shadow: 0 0.3vh 0.6vh rgba(0, 0, 0, 0.2);
 }
 
 .button p:hover{
-    background-color: #e5a100;
-    box-shadow: 0pt 2pt 3px rgba(0, 0, 0, 0.3);
+    background-color: #e5ba00;
+    box-shadow: 0 0.6vh 1.2vh rgba(0, 0, 0, 0.3);
     cursor: pointer;
 }
 
@@ -127,8 +137,8 @@ ul {
 
 /*applied to both top title and top flourish*/
 #top p{
-    margin: -3.4vmin 0 -3.9vmin 0.8vmin;
-    color: #ffd800;
+    margin: -3.9vmin 0 -1.4vmin 0.8vmin;
+    color: #ffcf00;
     padding: 0;
 }
 
@@ -166,13 +176,12 @@ ul {
 
 /* footer text */
 #foot {
-    padding: 16pt 0;
+    padding: 3vh 0;
 }
 
 #foot p{
-    padding-top: 0pt;
-    font-size: 12pt;
-    color: #ffd800;
+    font-size: 2.5vh;
+    color: #ffcf00;
 }
 
 /*image and video sliders on the home page*/

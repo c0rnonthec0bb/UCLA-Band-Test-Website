@@ -29,6 +29,10 @@
   
   var stacked = contentArea.offsetWidth < 600;
   
+  if (/Mobi/.test(navigator.userAgent)) {
+  stacked = true;
+  }
+  
   if(!onLoad && currentStacked == stacked){
     return;
   }
@@ -57,7 +61,7 @@
   for(var i = 0; i < subpages.length; i++){
   result += '<a class="button" href="' + links[i] + '"><p ';
   if(subpages[i].ID == id){
-  result += 'style="background-color: #0073cf; color: #ffd800;"';
+  result += 'style="background-color: #0073cf; color: #ffcf00;"';
   }else{
   
   }

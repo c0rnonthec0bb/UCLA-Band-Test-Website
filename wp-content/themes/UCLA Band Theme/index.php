@@ -7,10 +7,10 @@
     <meta charset="UTF-8">
 <title>UCLA Band - <?php if(is_home()){echo 'Home';}else{the_title();}?></title>
     <?php wp_head(); ?>
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Mirza:400,600|Leckerli+One|Roboto:300,700" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Leckerli+One|Roboto:300,700" />
 </head>
 
-<body style="background-image: url(<?php bloginfo('template_directory'); echo "/images/background.jpeg)";?>" >
+<body>
 
 <?php include 'top.php'; ?>
 

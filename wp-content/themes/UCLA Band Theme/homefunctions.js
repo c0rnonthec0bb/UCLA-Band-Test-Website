@@ -13,12 +13,13 @@
  function makePagePreviews(onLoad){
  
  var contentArea = document.getElementById('contentArea');
+ var body = document.body;
 
  var pages = global_vars.pages;
  var pageSubpages = global_vars.pageSubpages;
  var pageSubpageLinks = global_vars.pageSubpageLinks;
  
- var numColumns = Math.max(1, Math.min(pages.length, Math.floor(contentArea.offsetWidth / 250)));
+ var numColumns = Math.max(1, Math.min(pages.length, Math.floor(window.innerWidth / window.innerHeight * 2)));
  
  if(!onLoad && numColumns == currentNumColumns){
     return;
@@ -47,9 +48,9 @@
  pageNumsByColumn = [[0],[1,2],[3],[4],[5,6]];
  break;
  case 6:
- pageNumsByColumn = [[0],[1],[2,3],[4],[5],[6]];
+ pageNumsByColumn = [[0],[1,2],[3],[4],[5],[6]];
  break;
- case 1:
+ case 7:
  pageNumsByColumn = [[0],[1],[2],[3],[4],[5],[6]];
  break;
  }
