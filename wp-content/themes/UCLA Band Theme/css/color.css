@@ -1,0 +1,81 @@
+:root{
+    --trueBlue: #0073cf;
+    --trueBlueDark: #005ca5;
+    --gold: #ffcf00;
+    --goldDark: #e5ba00;
+}
+
+p {
+    color: black;
+}
+
+span {
+    color: black;
+}
+
+h1 {
+    color: black;
+}
+
+/*page titles, top 'Marching Band'*/
+.title {
+    color: var(--trueBlue);
+}
+
+.button p{
+    color: var(--trueBlue);
+}
+
+#top p{
+    color: var(--gold);
+}
+
+/*footer text*/
+#foot p{
+    color: var(--gold);
+}
+
+/*all elements with white background*/
+.card {
+    background-color: white;
+}
+
+.button p{
+    background-color: var(--gold);
+}
+
+.button p:hover{
+    background-color: var(--goldDark);
+}
+
+#menu li ul li:hover a, #menu li ul li li:hover a, #menu li ul li li li:hover a, #menu li ul li li li:hover a {
+    color:var(--trueBlue);
+}
+
+#menu li:hover, #menu li.sfhover {
+    color:var(--trueBlue);
+}
+
+#menu li:hover li a, #menu li li:hover li a, #menu li li li:hover li a, #menu li li li li:hover li a {
+    color:var(--trueBlue);
+}
+
+/*table header*/
+.tablepress thead th,
+.tablepress tfoot th {
+    background-color: var(--gold) !important;
+    color: var(--trueBlue) !important;
+}
+
+/*table odd row*/
+.tablepress .odd td {
+    background-color: #ddd !important;
+    color: black !important;
+}
+
+/*table even row*/
+.tablepress .even td {
+    background-color: #ccc !important;
+    color: black !important;
+}
+

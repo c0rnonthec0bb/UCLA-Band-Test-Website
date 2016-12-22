@@ -1717,9 +1717,28 @@
                <FileRef
                   location = "group:style.css">
                </FileRef>
-               <FileRef
-                  location = "group:menu.css">
-               </FileRef>
+               <Group
+                  location = "group:css"
+                  name = "css">
+                  <FileRef
+                     location = "group:menu.css">
+                  </FileRef>
+                  <FileRef
+                     location = "group:font.css">
+                  </FileRef>
+                  <FileRef
+                     location = "group:spacing.css">
+                  </FileRef>
+                  <FileRef
+                     location = "group:dimens.css">
+                  </FileRef>
+                  <FileRef
+                     location = "group:decor.css">
+                  </FileRef>
+                  <FileRef
+                     location = "group:color.css">
+                  </FileRef>
+               </Group>
                <FileRef
                   location = "group:index.php">
                </FileRef>

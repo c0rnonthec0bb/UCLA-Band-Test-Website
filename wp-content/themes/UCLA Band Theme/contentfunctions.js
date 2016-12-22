@@ -57,7 +57,7 @@
   for(var i = 0; i < subpages.length; i++){
   result += '<a class="button" href="' + links[i] + '"><p ';
   if(subpages[i].ID == id){
-  result += 'style="background-color: #0073cf; color: #ffcf00;"';
+  result += 'style="background-color: var(--trueBlue); color: var(--gold);"';
   }else{
   
   }

@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Mirza';
+    src: url('/wp-content/themes/UCLA Band Theme/fonts/mirza-semibold-webfont.woff2') format('woff2'),
+    url('/wp-content/themes/UCLA Band Theme/fonts/mirza-semibold-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: serif;
+    
+}
+
+p {
+    font-family: 'Roboto', serif;
+    font-weight: 300;
+    font-size: 2.2vh;
+}
+
+span {
+    font-family: 'Roboto', serif;
+    font-weight: 300;
+    font-size: 2.1vh;
+}
+
+h1 {
+    font-family: 'Mirza', serif;
+    font-weight: 600;
+    font-size: 3.3vh;
+}
+
+/*page titles, top 'Marching Band'*/
+.title {
+    font-family: 'Mirza', serif;
+    font-weight: 600;
+    font-size: 3.8vh;
+}
+
+.button p{
+    font-family: 'Mirza', serif;
+    font-weight: 600;
+    font-size: 2.8vh;
+}
+
+/* 'Marching Band' */
+#top .title{
+    font-size: 8vmin;
+}
+
+/*'The Solid Gold Sound'*/
+#top .flourish {
+    font-size: 3.8vmin;
+    font-family: 'Leckerli One', serif;
+    letter-spacing: 0.2vmin;
+}
+
+/*menu top level*/
+#menu td{
+    font-size: 4vh;
+}
+
+/*menu sublevel*/
+#menu li li a {
+    font-size:3vh;
+}
+
+/*footer text*/
+#foot p{
+    font-size: 2.5vh;
+}
+
+.tablepress{
+    font-family: 'Roboto', serif;
+    font-weight: 300;
+    font-size: 2.2vh;
+}

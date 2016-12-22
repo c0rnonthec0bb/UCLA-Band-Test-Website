@@ -1,0 +1,87 @@
+p {
+    padding: 0.5em 0.8em;
+    margin: 0;
+}
+
+span {
+    padding: 0.2em 0;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+table {
+    border-spacing: 0;
+}
+
+tr {
+    border-spacing: 0;
+}
+
+td {
+    vertical-align: top;
+    border-spacing: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+}
+
+.card {
+    padding: 1.5vmin;
+    margin-bottom: 16pt;
+}
+
+/*page titles, top 'Marching Band'*/
+.title {
+    padding: 0;
+}
+
+.button p{
+    margin: 0.5em 0.3em;
+    padding: 0 0.8em;
+}
+
+/* div containing top title elements */
+#top {
+    margin-top: -3vw;
+    margin-bottom: 4vmin;
+}
+
+#top td{
+    vertical-align: middle;
+}
+
+#top .flourish {
+    padding-right:0.3vmin;
+}
+
+/*applied to both top title and top flourish*/
+#top p{
+    margin: -3.9vmin 0 -1.4vmin 0.8vmin;
+    padding: 0;
+}
+
+/*container of social icons in the top right*/
+#social {
+    padding: 2vh;
+    margin-bottom: 3vh;
+}
+
+/*buttons for each social icon*/
+#social a {
+    padding: 1vh;
+}
+
+/*social icons*/
+#social img {
+    margin: 0.5vh;
+}
+
+/* footer text */
+#foot {
+    padding: 3vh 0;
+}

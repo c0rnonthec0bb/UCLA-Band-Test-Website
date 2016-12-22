@@ -1,0 +1,28 @@
+/*the div to be filled by javascript, on every page*/
+#contentArea{
+    width: 80vw;
+}
+
+/* UCLA BRUIN image*/
+#top img {
+    width: 16vmin;
+}
+
+/*social icons*/
+#social img {
+    width: 5vh;
+    height: 5vh;
+    object-fit: contain;
+}
+/*image and video sliders on the home page*/
+#home-sliders .slider{
+    width: 38.5vw;
+    height: 21.66vw;
+    max-width: 77vh;  /*so that they do not become too large on wide displays*/
+    max-height: 43.32vh;
+}
+
+/*spacers added on the left and right of the sliders*/
+#home-sliders .spacer{
+    width: calc((38.5vw - 77vh) / 2);   /*keeps sliders well centered at their max dimensions*/
+}

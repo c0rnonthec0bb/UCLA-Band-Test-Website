@@ -1,14 +1,28 @@
 <!DOCTYPE html>
-<html lang="en" style="margin-top: 0 !important;">
+<html lang="en" style="margin-top: 0 !important;"
+<?php
+    if (strpos($_SERVER['HTTP_USER_AGENT'], 'Mobi') !== false) {
+        echo 'class="mobileHtml"';
+    }
+    ?>
+>
+
+<?php the_post(); ?>
 
 <head>
 <meta charset="UTF-8">
-<title>UCLA Band - <?php global $post; echo $post->post_title;?></title>
+<title>UCLA Band - <?php if(is_home()){echo 'Home';}else{the_title();}?></title>
 <?php wp_head(); ?>
-<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Mirza:400,600|Leckerli+One|Roboto:300,700" />
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Leckerli+One|Roboto:300,700" />
 </head>
 
-<body style="background-image: url(<?php bloginfo('template_directory'); echo "/images/background.jpeg)";?>" >
+<body
+<?php
+    if (strpos($_SERVER['HTTP_USER_AGENT'], 'Mobi') !== false) {
+        echo 'class="mobileBody"';
+    }
+    ?>
+>
 
 <?php include 'top.php'; ?>
 

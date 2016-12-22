@@ -11,11 +11,11 @@
     foreach ($pages as $page) {
         echo "<li><a ";
         if ($page->ID == $post->ID || $page->ID == $post->post_parent){
-            echo "style=\"background: #005ca5;\"";
+            echo "style=\"background: var(--trueBlueDark);\"";
         }
         echo "><table><tr><td class=\"spacer\"></td><td class=\"title\" ";
         if ($page->ID == $post->ID || $page->ID == $post->post_parent){
-            echo "style=\"color: #ffcf00;\"";
+            echo "style=\"color: var(--gold);\"";
         }
         echo ">" . $page->post_title . "</td><td class=\"spacer\"></td></tr></table></a><ul>";
         
@@ -27,7 +27,7 @@
         foreach ($subpages as $subpage) {
             echo "<li><a class=\"title\" ";
             if ($subpage->ID == $post->ID){
-                echo "style=\"background: #0073cf; color: #ffcf00;\"";
+                echo "style=\"background: var(--trueBlue); color: var(--gold);\"";
             }
             echo "href=\"" . get_page_link($subpage->ID) . "\">" . $subpage->post_title . "</a></li>";
         }

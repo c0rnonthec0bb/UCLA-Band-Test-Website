@@ -1,0 +1,25 @@
+/*all elements with white background*/
+.card {
+    border-radius: 3pt;
+    box-shadow: 0 1vh 2vh rgba(0, 0, 0, 0.6);
+}
+
+/*gold buttons, such as those on the home page*/
+.button{
+    text-decoration:none;
+}
+
+.button p{
+    border-radius: 3pt;
+    box-shadow: 0 0.3vh 0.6vh rgba(0, 0, 0, 0.2);
+}
+
+.button p:hover{
+    box-shadow: 0 0.6vh 1.2vh rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+/* button for returning home*/
+#top a{
+    text-decoration:none;
+}
