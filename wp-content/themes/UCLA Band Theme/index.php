@@ -1,5 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" style="margin-top: 0 !important;">
+<html lang="en" style="margin-top: 0 !important;"
+<?php
+    if (strpos($_SERVER['HTTP_USER_AGENT'], 'Mobi') !== false) {
+        echo 'class="mobileHtml"';
+    }
+    ?>
+>
 
 <?php the_post(); ?>
 
@@ -10,7 +16,13 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Leckerli+One|Roboto:300,700" />
 </head>
 
-<body>
+<body
+<?php
+    if (strpos($_SERVER['HTTP_USER_AGENT'], 'Mobi') !== false) {
+        echo 'class="mobileBody"';
+    }
+    ?>
+>
 
 <?php include 'top.php'; ?>
 

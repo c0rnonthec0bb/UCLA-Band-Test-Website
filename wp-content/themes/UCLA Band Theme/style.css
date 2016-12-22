@@ -14,14 +14,18 @@ Version: 0.0.1
     
 }
 
-html {
+.mobileHtml {
     overflow-y: hidden;
 }
-body {
+
+.mobileBody {
     width: 100vw;
     height: 100vh;
     overflow-y: scroll;
     -webkit-overflow-scrolling:touch;
+}
+
+body {
     background: url("/wp-content/themes/UCLA Band Theme/images/background.jpeg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
