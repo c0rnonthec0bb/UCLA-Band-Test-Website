@@ -2,12 +2,12 @@
 #menu {
     list-style:none;
     margin-top: 0;
-    width: 76vw; /*due to padding*/
+    width: 76.5vw; /*due to padding*/
     float: left;
     left: 0;
     right: 0;
     position: relative;
-    padding:0 2vw;
+    padding:0 1.5vw 0 2vw;
     align:center;
 }
 
@@ -27,8 +27,7 @@
 
 /*spacers on either side of each menu element in order to spread menu evenly*/
 #menu .spacer {
-    min-width: 10pt;
-    width: calc((76vw - 101vh) / 2 / 7); /*this calc is specific to our menu, needs to be changed if menu titles are changed.  The second number is the width of the titles without spacing and the last number is the number of titles.*/
+    min-width: 10pt; /* if screen width is big enough, spacers expand, using menufunctions.js*/
 }
 
 #menu li {

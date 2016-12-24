@@ -17,7 +17,7 @@ Version: 0.0.1
 }
 
 body {
-    background: url("/wp-content/themes/UCLA Band Theme/images/background.jpeg") no-repeat center center fixed;
+    background: url("/wp-content/themes/UCLA Band Theme/images/background.jpeg") no-repeat center top fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

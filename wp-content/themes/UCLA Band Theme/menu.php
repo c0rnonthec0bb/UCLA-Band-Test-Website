@@ -13,7 +13,7 @@
         if ($page->ID == $post->ID || $page->ID == $post->post_parent){
             echo "style=\"background: var(--trueBlueDark);\"";
         }
-        echo "><table><tr><td class=\"spacer\"></td><td class=\"title\" ";
+        echo "><table><tr><td class=\"spacer\"></td><td class=\"menuItem title\" ";
         if ($page->ID == $post->ID || $page->ID == $post->post_parent){
             echo "style=\"color: var(--gold);\"";
         }

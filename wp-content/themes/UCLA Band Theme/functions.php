@@ -15,6 +15,10 @@
             wp_localize_script('homefunctions', 'global_vars', homeParams());
     
         }else{
+            
+            wp_enqueue_script( 'menufunctions', get_template_directory_uri() . '/menufunctions.js', array ( 'jquery' ));
+            wp_localize_script('menufunctions', 'global_vars', menuParams());
+            
             wp_enqueue_script( 'contentfunctions', get_template_directory_uri() . '/contentfunctions.js', array ( 'jquery' ));
             wp_localize_script('contentfunctions', 'global_vars', contentParams());
         }
@@ -102,5 +106,9 @@
                      'content' => $content,
                      'id' => $id
                      );
+    }
+    
+    function menuParams(){
+        return array();
     }
 ?>

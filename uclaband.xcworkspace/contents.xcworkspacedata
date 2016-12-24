@@ -1763,6 +1763,9 @@
                <FileRef
                   location = "group:contentfunctions.js">
                </FileRef>
+               <FileRef
+                  location = "group:menufunctions.js">
+               </FileRef>
                <Group
                   location = "group:images"
                   name = "images">
