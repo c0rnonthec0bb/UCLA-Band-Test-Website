@@ -16,12 +16,10 @@ Version: 0.0.1
     -webkit-overflow-scrolling:touch;
 }
 
-body {
-    background: url("/wp-content/themes/UCLA Band Theme/images/background.jpeg") no-repeat center top fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    margin: 0 !important;
-    padding: 0 !important;
+#home-sliders .reslide_arrow_left{
+    display: none !important;
+}
+
+#home-sliders .reslide_arrow_right{
+    display: none !important;
 }

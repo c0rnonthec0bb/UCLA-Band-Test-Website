@@ -3,22 +3,22 @@
     <table id="social">
         <tr>
             <td>
-                <a href="https://www.youtube.com/user/UCLABandVideoProject" target="_blank">
+                <a href="<?php echo esc_url( home_url( '/' ) ); ?>social/youtube/" target="_blank">
                     <img src="<?php bloginfo('template_directory');?>/images/icon-youtube.png">
                 </a>
             </td>
             <td>
-                <a href="https://www.facebook.com/uclabruinband/" target="_blank">
+                <a href="<?php echo esc_url( home_url( '/' ) ); ?>social/facebook/" target="_blank">
                     <img src="<?php bloginfo('template_directory');?>/images/icon-facebook.png" >
                 </a>
             </td>
             <td>
-                <a href="https://www.instagram.com/uclabruinmarchingband/" target="_blank">
+                <a href="<?php echo esc_url( home_url( '/' ) ); ?>social/instagram/" target="_blank">
                     <img src="<?php bloginfo('template_directory');?>/images/icon-instagram.png">
                 </a>
             </td>
             <td>
-                <a href="https://twitter.com/UCLABruinBand/" target="_blank">
+                <a href="<?php echo esc_url( home_url( '/' ) ); ?>social/twitter/" target="_blank">
                     <img src="<?php bloginfo('template_directory');?>/images/icon-twitter.png">
                 </a>
             </td>

@@ -1738,6 +1738,9 @@
                   <FileRef
                      location = "group:color.css">
                   </FileRef>
+                  <FileRef
+                     location = "group:img.css">
+                  </FileRef>
                </Group>
                <FileRef
                   location = "group:index.php">

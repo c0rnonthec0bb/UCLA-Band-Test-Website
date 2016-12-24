@@ -23,3 +23,8 @@
 #top a{
     text-decoration:none;
 }
+
+#home-sliders .reslide_dot{
+    border-radius: 50% !important;
+    border-color: clear !important;
+}

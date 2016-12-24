@@ -8,6 +8,7 @@
         wp_enqueue_style( 'dimens', get_template_directory_uri() . '/css/dimens.css');
         wp_enqueue_style( 'decor', get_template_directory_uri() . '/css/decor.css');
         wp_enqueue_style( 'color', get_template_directory_uri() . '/css/color.css');
+        wp_enqueue_style( 'img', get_template_directory_uri() . '/css/img.css');
         
         if(is_home()){
             

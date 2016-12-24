@@ -79,3 +79,24 @@ h1 {
     color: black !important;
 }
 
+
+#home-sliders .reslide_navigator{
+    background-color: rgba(0,0,0,0.6) !important;
+}
+
+#home-sliders .reslide_dot{
+    background-color: var(--gold) !important;
+    opacity: 1;
+}
+
+#home-sliders .reslide_dot:hover, #home-sliders .reslide_dot:sfhover {
+    background-color: var(--goldDark) !important;
+}
+
+#home-sliders #slider3_container .reslide_navigator .reslide_dotav{
+    background-color: var(--trueBlue) !important;
+}
+
+#home-sliders #slider1_container .reslide_navigator .reslide_dotav{
+    background-color: var(--trueBlue) !important;
+}

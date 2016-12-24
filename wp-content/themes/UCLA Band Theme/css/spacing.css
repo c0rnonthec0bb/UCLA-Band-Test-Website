@@ -1,3 +1,8 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
 p {
     padding: 0.5em 0.8em;
     margin: 0;
@@ -84,4 +89,17 @@ ul {
 /* footer text */
 #foot {
     padding: 3vh 0;
+}
+
+#home-sliders .reslide_navigator{
+    padding: 0 1% !important;
+    top: 91.2% !important;
+    left: 0 !important;
+}
+
+#home-sliders .reslide_dot{
+    margin: 1% !important;
+    position: static !important;
+    float: left !important;
+    opacity: 1 !important;
 }
