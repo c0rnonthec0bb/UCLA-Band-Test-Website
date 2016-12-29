@@ -40,12 +40,12 @@ h1 {
 
 /* 'Marching Band' */
 #top .title{
-    font-size: 8vmin;
+    font-size: 10vmin;
 }
 
 /*'The Solid Gold Sound'*/
 #top .flourish {
-    font-size: 3.8vmin;
+    font-size: 4.8vmin;
     font-family: 'Leckerli One', serif;
     letter-spacing: 0.2vmin;
 }

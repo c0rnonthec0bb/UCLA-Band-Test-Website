@@ -15,7 +15,7 @@
     display:block;
     text-decoration:none;
     margin: 0;
-    padding: 0.08vh 0;
+    padding: 0;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -27,7 +27,7 @@
 
 /*spacers on either side of each menu element in order to spread menu evenly*/
 #menu .spacer {
-    min-width: 10pt; /* if screen width is big enough, spacers expand, using menufunctions.js*/
+    min-width: 2vh;  /*if screen width is big enough, spacers expand, using menufunctions.js*/
 }
 
 #menu li {

@@ -73,7 +73,7 @@
  function pagePreview(page, subpages, links){
  var result = '<div align="center" class="card">';
  result += '<p class="title">' + page.post_title + '</p>';
- result += '<p>' + page.post_content + '</p>';
+ result += '<p class="homeParentView">' + page.post_content + '</p>';
  
  for(var i = 0; i < subpages.length; i++){
     result += '<a class="button" href="' + links[i] + '"><p>' + subpages[i].post_title + '</p></a>';

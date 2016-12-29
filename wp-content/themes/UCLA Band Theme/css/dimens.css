@@ -1,11 +1,8 @@
-/*the div to be filled by javascript, on every page*/
-#contentArea{
-    width: 80vw;
-}
+
 
 /* UCLA BRUIN image*/
 #top img {
-    width: 16vmin;
+    width: 18vmin;
 }
 
 /*social icons*/
@@ -45,4 +42,18 @@
 #home-sliders .reslide_dot{
     width: 3% !important;
     height: 60% !important;
+}
+
+/*the div to be filled by javascript, on every page*/
+#contentArea{
+    width: 80vw;
+}
+
+.homeParentView img{
+    display: none;
+}
+
+.contentParentView img{
+    width: 100%;
+    height: auto;
 }

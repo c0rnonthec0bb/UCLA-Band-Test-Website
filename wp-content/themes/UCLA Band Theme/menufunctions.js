@@ -1,7 +1,10 @@
  ( function( $ ) {
   
   $(window).load( function() {
-                 resizeSpacers(true);
+                 //setTimeout(function(){
+                            resizeSpacers(true);
+                            //}, 2000);
+                 
                  }
                  )
   
@@ -23,7 +26,7 @@
   textsWidth += texts[i].offsetWidth;
   }
   
-  var spacerWidth = 'calc((76vw - ' + textsWidth + 'px) / ' + spacers.length + ' - 1px)';
+  var spacerWidth = Math.floor((0.76 * document.body.offsetWidth - textsWidth) / spacers.length) + 'px';
   
   for(var i = 0; i < spacers.length; i++){
     spacers[i].style.width = spacerWidth;

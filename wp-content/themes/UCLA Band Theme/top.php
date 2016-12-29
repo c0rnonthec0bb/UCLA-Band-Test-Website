@@ -27,7 +27,7 @@
 </div>
 
 <div id="top" align="center">
-    <div style="width: 80vmin;">
+    <div style="width: 86vmin;">
         <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
             <table style="margin:0;">
                 <tr>

@@ -33,6 +33,7 @@ td {
 
 ul {
     margin: 0;
+    padding: 0 8vh;
 }
 
 .card {
@@ -53,7 +54,7 @@ ul {
 /* div containing top title elements */
 #top {
     margin-top: -3vw;
-    margin-bottom: 4vmin;
+    margin-bottom: 6vmin;
 }
 
 #top td{
@@ -61,12 +62,12 @@ ul {
 }
 
 #top .flourish {
-    padding-right:0.3vmin;
+    padding-right:0.6vmin;
 }
 
 /*applied to both top title and top flourish*/
 #top p{
-    margin: -3.9vmin 0 -1.4vmin 0.8vmin;
+    margin: -5vmin 0 -2.1vmin 1.2vmin;
     padding: 0;
 }
 
