@@ -1,5 +1,8 @@
 <?php
     
+    update_option( 'siteurl', 'http://localhost:8888' );
+    update_option( 'home', 'http://localhost:8888' );
+    
     function add_theme_scripts() {
         wp_enqueue_style( 'style', get_template_directory_uri() . '/style.css');
         wp_enqueue_style( 'menu', get_template_directory_uri() . '/css/menu.css');
