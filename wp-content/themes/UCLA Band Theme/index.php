@@ -39,7 +39,7 @@
 
 </td></tr><tr><td align="center">
 
-        <div id="contentArea" align="left"></div>
+        <div id="contentArea" align="left"><p class="title" style="color: var(--gold)">Loading page content...</p></div>
 
 </td></tr>
 
