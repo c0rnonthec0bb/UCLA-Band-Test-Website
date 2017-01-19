@@ -1,0 +1,102 @@
+:root{
+    --trueblue: #0073cf;
+    --truebluedark: #005ca5;
+    --gold: #ffcf00;
+    --golddark: #e5ba00;
+}
+
+p {
+    color: black;
+}
+
+span {
+    color: black;
+}
+
+h1 {
+    color: black;
+}
+
+/*page titles, top 'Marching Band'*/
+.title {
+    color: var(--trueblue);
+}
+
+.button p{
+    color: var(--trueblue);
+}
+
+#top p{
+    color: var(--gold);
+}
+
+/*footer text*/
+#foot p{
+    color: var(--gold);
+}
+
+/*all elements with white background*/
+.card {
+    background-color: white;
+}
+
+.button p{
+    background-color: var(--gold);
+}
+
+.button p:hover{
+    background-color: var(--golddark);
+}
+
+#menu li ul li:hover a, #menu li ul li li:hover a, #menu li ul li li li:hover a, #menu li ul li li li:hover a {
+    color:var(--trueblue);
+}
+
+#menu li:hover, #menu li.sfhover {
+    color:var(--trueblue);
+}
+
+#menu li:hover li a, #menu li li:hover li a, #menu li li li:hover li a, #menu li li li li:hover li a {
+    color:var(--trueblue);
+}
+
+/*table header*/
+.tablepress thead th,
+.tablepress tfoot th {
+    background-color: var(--gold) !important;
+    color: var(--trueblue) !important;
+}
+
+/*table odd row*/
+.tablepress .odd td {
+    background-color: #ddd !important;
+    color: black !important;
+}
+
+/*table even row*/
+.tablepress .even td {
+    background-color: #ccc !important;
+    color: black !important;
+}
+
+
+#home-sliders .reslide_navigator{
+    background-color: rgba(0,0,0,0.6) !important;
+}
+
+#home-sliders .reslide_dot{
+    background-color: var(--gold) !important;
+    opacity: 1;
+}
+
+#home-sliders .reslide_dot:hover, #home-sliders .reslide_dot:sfhover {
+    background-color: var(--golddark) !important;
+}
+
+#home-sliders #slider3_container .reslide_navigator .reslide_dotav{
+    background-color: var(--trueblue) !important;
+}
+
+#home-sliders #slider1_container .reslide_navigator .reslide_dotav{
+    background-color: var(--trueblue) !important;
+}

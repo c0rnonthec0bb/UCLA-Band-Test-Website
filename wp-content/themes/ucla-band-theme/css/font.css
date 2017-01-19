@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Mirza';
+    src: local('Mirza'), url('/wp-content/themes/ucla-band-theme/fonts/mirza-semibold-webfont.woff2') format('woff2'),
+    url('/wp-content/themes/ucla-band-theme/fonts/mirza-semibold-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: serif;
+}
+
+div {
+    font-family: 'Roboto', serif;
+    font-weight: 300;
+    font-size: 2.4vh;
+}
+
+p {
+    font-family: 'Roboto', serif;
+    font-weight: 300;
+    font-size: 2.4vh;
+}
+
+a {
+    font-family: 'Roboto', serif;
+    font-weight: 300;
+    font-size: 2.4vh;
+}
+
+li {
+    font-family: 'Roboto', serif;
+    font-weight: 300;
+    font-size: 2.4vh;
+}
+
+span {
+    font-family: 'Roboto', serif;
+    font-weight: 300;
+    font-size: 2.4vh;
+}
+
+h1 {
+    font-family: 'Mirza', serif;
+    font-weight: 600;
+    font-size: 3.5vh;
+}
+
+/*page titles, top 'Marching Band'*/
+.title {
+    font-family: 'Mirza', serif;
+    font-weight: 600;
+    font-size: 4.0vh;
+}
+
+.button p{
+    font-family: 'Mirza', serif;
+    font-weight: 600;
+    font-size: 3.0vh;
+}
+
+/* 'Marching Band' */
+#top .title{
+    font-size: 10vmin;
+}
+
+/*'The Solid Gold Sound'*/
+#top .flourish {
+    font-size: 4.8vmin;
+    font-family: 'Leckerli One', serif;
+    letter-spacing: 0.2vmin;
+}
+
+/*menu top level*/
+#menu td{
+    font-size: 4vh;
+}
+
+/*menu sublevel*/
+#menu li li a {
+    font-size:3vh;
+}
+
+/*footer text*/
+#foot p{
+    font-size: 2.5vh;
+}
+
+.tablepress{
+    font-family: 'Roboto', serif;
+    font-weight: 300;
+    font-size: 2.2vh;
+}

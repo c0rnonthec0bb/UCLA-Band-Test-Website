@@ -3,7 +3,7 @@
 Plugin Name: Huge IT Responsive Slider
 Plugin URI: http://huge-it.com/wordpress-responsive-slider
 Description: Create the most stunning sliders for your mobile friendly website with Huge-IT Responsive Slider.
-Version: 2.3.4
+Version: 2.3.6
 Author: Huge-IT
 Author URI: http://huge-it.com/
 License: GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html

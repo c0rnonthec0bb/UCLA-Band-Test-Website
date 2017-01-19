@@ -262,6 +262,26 @@ function reslide_edit_slider_view( $_row, $_id, $_slider ) {
                                             value="10" <?php echo ( $params->effect->type == 10 ) ? "selected" : ""; ?>>
                                             <?php _e('Slide Down','reslide');?>
                                         </option>
+                                        <option
+                                            value="11" <?php echo ( $params->effect->type == 11 ) ? "selected" : ""; ?>>
+                                            <?php _e('Rotate VDouble in','reslide');?>
+                                        </option>
+                                        <option
+                                            value="12" <?php echo ( $params->effect->type == 12 ) ? "selected" : ""; ?>>
+                                            <?php _e('Rotate HDouble in','reslide');?>
+                                        </option>
+                                        <option
+                                            value="13" <?php echo ( $params->effect->type == 13 ) ? "selected" : ""; ?>>
+                                            <?php _e('Zoom in','reslide');?>
+                                        </option>
+                                        <option
+                                            value="14" <?php echo ( $params->effect->type == 14 ) ? "selected" : ""; ?>>
+                                            <?php _e('Fade in Corners','reslide');?>
+                                        </option>
+                                        <option
+                                            value="15" <?php echo ( $params->effect->type == 15 ) ? "selected" : ""; ?>>
+                                            <?php _e('Fade Clip out','reslide');?>
+                                        </option>
                                     </select>
                                     <input type="hidden" name="params[effect][type]"
                                            value="<?php echo esc_attr($params->effect->type); ?>">

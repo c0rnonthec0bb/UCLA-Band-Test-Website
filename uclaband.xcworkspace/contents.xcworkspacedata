@@ -1712,8 +1712,8 @@
             location = "group:themes"
             name = "themes">
             <Group
-               location = "group:UCLA Band Theme"
-               name = "UCLA Band Theme">
+               location = "group:ucla-band-theme"
+               name = "ucla-band-theme">
                <FileRef
                   location = "group:style.css">
                </FileRef>
@@ -1721,38 +1721,38 @@
                   location = "group:css"
                   name = "css">
                   <FileRef
-                     location = "group:menu.css">
-                  </FileRef>
-                  <FileRef
-                     location = "group:font.css">
-                  </FileRef>
-                  <FileRef
-                     location = "group:spacing.css">
-                  </FileRef>
-                  <FileRef
-                     location = "group:dimens.css">
+                     location = "group:color.css">
                   </FileRef>
                   <FileRef
                      location = "group:decor.css">
                   </FileRef>
                   <FileRef
-                     location = "group:color.css">
+                     location = "group:dimens.css">
+                  </FileRef>
+                  <FileRef
+                     location = "group:font.css">
                   </FileRef>
                   <FileRef
                      location = "group:img.css">
+                  </FileRef>
+                  <FileRef
+                     location = "group:menu.css">
+                  </FileRef>
+                  <FileRef
+                     location = "group:spacing.css">
                   </FileRef>
                </Group>
                <FileRef
                   location = "group:index.php">
                </FileRef>
                <FileRef
-                  location = "group:top.php">
-               </FileRef>
-               <FileRef
                   location = "group:menu.php">
                </FileRef>
                <FileRef
-                  location = "group:/Users/Adam/OneDrive/UCLA-Band-Test-Website/wp-content/themes/UCLA Band Theme/homesliders.php">
+                  location = "group:top.php">
+               </FileRef>
+               <FileRef
+                  location = "group:homesliders.php">
                </FileRef>
                <FileRef
                   location = "group:404.php">
@@ -1761,14 +1761,70 @@
                   location = "group:functions.php">
                </FileRef>
                <FileRef
-                  location = "group:/Users/Adam/OneDrive/UCLA-Band-Test-Website/wp-content/themes/UCLA Band Theme/homefunctions.js">
+                  location = "group:/Users/Adam/OneDrive/UCLA-Band-Test-Website/wp-content/themes/ucla-band-theme/contentfunctions.js">
                </FileRef>
                <FileRef
-                  location = "group:contentfunctions.js">
+                  location = "group:homefunctions.js">
                </FileRef>
                <FileRef
                   location = "group:menufunctions.js">
                </FileRef>
+               <Group
+                  location = "group:fonts"
+                  name = "fonts">
+                  <FileRef
+                     location = "group:generator_config.txt">
+                  </FileRef>
+                  <FileRef
+                     location = "group:mirza-bold-demo.html">
+                  </FileRef>
+                  <FileRef
+                     location = "group:mirza-bold-webfont.woff">
+                  </FileRef>
+                  <FileRef
+                     location = "group:mirza-bold-webfont.woff2">
+                  </FileRef>
+                  <FileRef
+                     location = "group:mirza-medium-demo.html">
+                  </FileRef>
+                  <FileRef
+                     location = "group:mirza-medium-webfont.woff">
+                  </FileRef>
+                  <FileRef
+                     location = "group:mirza-medium-webfont.woff2">
+                  </FileRef>
+                  <FileRef
+                     location = "group:mirza-regular-demo.html">
+                  </FileRef>
+                  <FileRef
+                     location = "group:mirza-regular-webfont.woff">
+                  </FileRef>
+                  <FileRef
+                     location = "group:mirza-regular-webfont.woff2">
+                  </FileRef>
+                  <FileRef
+                     location = "group:mirza-semibold-demo.html">
+                  </FileRef>
+                  <FileRef
+                     location = "group:mirza-semibold-webfont.woff">
+                  </FileRef>
+                  <FileRef
+                     location = "group:mirza-semibold-webfont.woff2">
+                  </FileRef>
+                  <Group
+                     location = "group:specimen_files"
+                     name = "specimen_files">
+                     <FileRef
+                        location = "group:grid_12-825-55-15.css">
+                     </FileRef>
+                     <FileRef
+                        location = "group:specimen_stylesheet.css">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:stylesheet.css">
+                  </FileRef>
+               </Group>
                <Group
                   location = "group:images"
                   name = "images">
@@ -1790,541 +1846,6 @@
                   <FileRef
                      location = "group:logo-gold.png">
                   </FileRef>
-               </Group>
-               <Group
-                  location = "group:plugins"
-                  name = "plugins">
-                  <Group
-                     location = "group:slider"
-                     name = "slider">
-                     <Group
-                        location = "group:admin"
-                        name = "admin">
-                        <FileRef
-                           location = "group:huge_it_featured_plugins.php">
-                        </FileRef>
-                        <FileRef
-                           location = "group:reslide-edit-slider-view.php">
-                        </FileRef>
-                        <FileRef
-                           location = "group:reslide_func.php">
-                        </FileRef>
-                        <FileRef
-                           location = "group:reslide_view.php">
-                        </FileRef>
-                        <FileRef
-                           location = "group:reslider_func.php">
-                        </FileRef>
-                        <FileRef
-                           location = "group:reslider_view.php">
-                        </FileRef>
-                     </Group>
-                     <Group
-                        location = "group:assets"
-                        name = "assets">
-                        <Group
-                           location = "group:font-awesome-4.6.3"
-                           name = "font-awesome-4.6.3">
-                           <Group
-                              location = "group:css"
-                              name = "css">
-                              <FileRef
-                                 location = "group:font-awesome.css">
-                              </FileRef>
-                              <FileRef
-                                 location = "group:font-awesome.min.css">
-                              </FileRef>
-                           </Group>
-                           <Group
-                              location = "group:fonts"
-                              name = "fonts">
-                              <FileRef
-                                 location = "group:fontawesome-webfont.eot">
-                              </FileRef>
-                              <FileRef
-                                 location = "group:fontawesome-webfont.svg">
-                              </FileRef>
-                              <FileRef
-                                 location = "group:fontawesome-webfont.ttf">
-                              </FileRef>
-                              <FileRef
-                                 location = "group:fontawesome-webfont.woff">
-                              </FileRef>
-                              <FileRef
-                                 location = "group:fontawesome-webfont.woff2">
-                              </FileRef>
-                              <FileRef
-                                 location = "group:FontAwesome.otf">
-                              </FileRef>
-                           </Group>
-                           <FileRef
-                              location = "group:HELP-US-OUT.txt">
-                           </FileRef>
-                        </Group>
-                     </Group>
-                     <Group
-                        location = "group:css"
-                        name = "css">
-                        <FileRef
-                           location = "group:admin.css">
-                        </FileRef>
-                        <FileRef
-                           location = "group:featured-plugins.css">
-                        </FileRef>
-                        <FileRef
-                           location = "group:popups.css">
-                        </FileRef>
-                     </Group>
-                     <Group
-                        location = "group:front-end"
-                        name = "front-end">
-                        <FileRef
-                           location = "group:reslide-front-end.css.php">
-                        </FileRef>
-                        <FileRef
-                           location = "group:reslider_front_end_func.php">
-                        </FileRef>
-                        <FileRef
-                           location = "group:reslider_front_end_view.php">
-                        </FileRef>
-                     </Group>
-                     <Group
-                        location = "group:Front_images"
-                        name = "Front_images">
-                        <Group
-                           location = "group:arrows"
-                           name = "arrows">
-                           <FileRef
-                              location = "group:arrows-0.png">
-                           </FileRef>
-                           <FileRef
-                              location = "group:arrows-1.png">
-                           </FileRef>
-                           <FileRef
-                              location = "group:arrows-2.png">
-                           </FileRef>
-                           <FileRef
-                              location = "group:arrows-3.png">
-                           </FileRef>
-                           <FileRef
-                              location = "group:arrows-34.png">
-                           </FileRef>
-                           <FileRef
-                              location = "group:arrows-4.png">
-                           </FileRef>
-                           <FileRef
-                              location = "group:arrows_style.png">
-                           </FileRef>
-                        </Group>
-                        <Group
-                           location = "group:Default"
-                           name = "Default">
-                           <FileRef
-                              location = "group:1.jpg">
-                           </FileRef>
-                           <FileRef
-                              location = "group:2.jpg">
-                           </FileRef>
-                           <FileRef
-                              location = "group:3.jpg">
-                           </FileRef>
-                           <FileRef
-                              location = "group:4.jpg">
-                           </FileRef>
-                           <FileRef
-                              location = "group:5.jpg">
-                           </FileRef>
-                        </Group>
-                     </Group>
-                     <Group
-                        location = "group:images"
-                        name = "images">
-                        <FileRef
-                           location = "group:05-bottom-line.png">
-                        </FileRef>
-                        <Group
-                           location = "group:2"
-                           name = "2">
-                           <FileRef
-                              location = "group:controls.png">
-                           </FileRef>
-                           <FileRef
-                              location = "group:loading.gif">
-                           </FileRef>
-                        </Group>
-                        <Group
-                           location = "group:3"
-                           name = "3">
-                           <FileRef
-                              location = "group:controls.png">
-                           </FileRef>
-                           <FileRef
-                              location = "group:loading.gif">
-                           </FileRef>
-                        </Group>
-                        <Group
-                           location = "group:4"
-                           name = "4">
-                           <FileRef
-                              location = "group:border1.png">
-                           </FileRef>
-                           <FileRef
-                              location = "group:border2.png">
-                           </FileRef>
-                           <FileRef
-                              location = "group:loading.gif">
-                           </FileRef>
-                        </Group>
-                        <Group
-                           location = "group:5"
-                           name = "5">
-                           <FileRef
-                              location = "group:border.png">
-                           </FileRef>
-                           <FileRef
-                              location = "group:controls.png">
-                           </FileRef>
-                           <FileRef
-                              location = "group:loading.gif">
-                           </FileRef>
-                           <FileRef
-                              location = "group:loading_background.png">
-                           </FileRef>
-                        </Group>
-                        <FileRef
-                           location = "group:arrow.dark.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:arrow.light.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:back.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:backend.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:background.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:blank.gif">
-                        </FileRef>
-                        <FileRef
-                           location = "group:border.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:catalog.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:close.gif">
-                        </FileRef>
-                        <FileRef
-                           location = "group:close.popup.dark.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:close.popup.light.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:colorbox.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:controls.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:delete.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:delete1.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:delete2.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:delete3.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:divider.line.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:dragable.gif">
-                        </FileRef>
-                        <FileRef
-                           location = "group:edit-icon1.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:edit.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:edit1.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:edit2.gif">
-                        </FileRef>
-                        <FileRef
-                           location = "group:edit3.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:f.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:fields.opt.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:form.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:Gallery.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:google-map.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:gradient.black.to.white.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:Huge-It-logo.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:huge-it1.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:huge_it_portfolioLogoHover -for_menu.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:icon-img.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:icon-user-manual.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:lamp-2.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:lamp.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:large_loading.gif">
-                        </FileRef>
-                        <FileRef
-                           location = "group:left.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:light.jpg">
-                        </FileRef>
-                        <FileRef
-                           location = "group:light2.jpg">
-                        </FileRef>
-                        <FileRef
-                           location = "group:light3">
-                        </FileRef>
-                        <FileRef
-                           location = "group:light3.jpg">
-                        </FileRef>
-                        <FileRef
-                           location = "group:light3.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:light4.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:light4dark.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:light_1.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:light_2.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:lightbox.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:loading.gif">
-                        </FileRef>
-                        <FileRef
-                           location = "group:loading.jpg">
-                        </FileRef>
-                        <FileRef
-                           location = "group:loading.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:loading.white.gif">
-                        </FileRef>
-                        <FileRef
-                           location = "group:loading_1.gif">
-                        </FileRef>
-                        <FileRef
-                           location = "group:loading_background.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:menu.dark.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:menu.light.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:move.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:next.gif">
-                        </FileRef>
-                        <FileRef
-                           location = "group:noimage.jpg">
-                        </FileRef>
-                        <FileRef
-                           location = "group:noimage.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:open-close.dark.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:open-close.light.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:overlay.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:play.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:play.vimeo.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:play.youtube.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:player.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:plus.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:portfolio-active-left.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:portfolio-active.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:portfolio-passive.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:portfolio.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:post.button.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:prev.gif">
-                        </FileRef>
-                        <FileRef
-                           location = "group:pricing-table-icon.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:remove.jpg">
-                        </FileRef>
-                        <FileRef
-                           location = "group:right.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:sale.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:sale1.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:share.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:slider-icon.jpg">
-                        </FileRef>
-                        <FileRef
-                           location = "group:slider-icon.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:slider.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:sprite.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:stop.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:stverlist.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:stverlist2.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:video-player.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:video.icon.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:view_list.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:view_thumbs.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:wp_banner_bg.jpg">
-                        </FileRef>
-                        <FileRef
-                           location = "group:wp_shop.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:zoom.dark.png">
-                        </FileRef>
-                        <FileRef
-                           location = "group:zoom.light.png">
-                        </FileRef>
-                     </Group>
-                     <Group
-                        location = "group:js"
-                        name = "js">
-                        <FileRef
-                           location = "group:add_slide_popups.js">
-                        </FileRef>
-                        <FileRef
-                           location = "group:admin.js">
-                        </FileRef>
-                        <FileRef
-                           location = "group:ajax.js">
-                        </FileRef>
-                        <FileRef
-                           location = "group:helper.js">
-                        </FileRef>
-                        <FileRef
-                           location = "group:jscolor.min.js">
-                        </FileRef>
-                        <FileRef
-                           location = "group:jssor.js">
-                        </FileRef>
-                        <FileRef
-                           location = "group:resliderjscolor.js">
-                        </FileRef>
-                        <FileRef
-                           location = "group:resliderjscolor.min.js">
-                        </FileRef>
-                        <FileRef
-                           location = "group:sortable.js">
-                        </FileRef>
-                     </Group>
-                     <Group
-                        location = "group:media-control"
-                        name = "media-control">
-                        <FileRef
-                           location = "group:add_slide_popups.php">
-                        </FileRef>
-                     </Group>
-                     <FileRef
-                        location = "group:readme.txt">
-                     </FileRef>
-                     <FileRef
-                        location = "group:slider.php">
-                     </FileRef>
-                  </Group>
                </Group>
             </Group>
             <FileRef

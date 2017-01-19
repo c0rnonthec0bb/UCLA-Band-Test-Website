@@ -235,6 +235,21 @@ function reslider_front_end($_id,$_slider,$_reslides) {
 						case 10:
 							reslide_effect ={$Duration:reslider<?php echo $sliderID;?>["params"]["effect"]["duration"],y:1,$Easing:$JssorEasing$.$EaseInQuad};
 							break;
+						case 11:
+							reslide_effect ={$Duration:reslider<?php echo $sliderID;?>["params"]["effect"]["duration"],x:-1,y:2,$Rows:2,$Zoom:11,$Rotate:1,$ChessMode:{$Row:15},$Easing:{$Left:$JssorEasing$.$EaseInCubic,$Top:$JssorEasing$.$EaseInCubic,$Zoom:$JssorEasing$.$EaseInCubic,$Opacity:$JssorEasing$.$EaseOutQuad,$Rotate:$JssorEasing$.$EaseInCubic},$Assembly:2049,$Opacity:2,$Round:{$Rotate:0.8}};
+							break;
+						case 12:
+							reslide_effect ={$Duration:reslider<?php echo $sliderID;?>["params"]["effect"]["duration"],x:2,y:1,$Cols:2,$Zoom:11,$Rotate:1,$ChessMode:{$Column:15},$Easing:{$Left:$JssorEasing$.$EaseInCubic,$Top:$JssorEasing$.$EaseInCubic,$Zoom:$JssorEasing$.$EaseInCubic,$Opacity:$JssorEasing$.$EaseOutQuad,$Rotate:$JssorEasing$.$EaseInCubic},$Assembly:2049,$Opacity:2,$Round:{$Rotate:0.7}};
+							break;
+						case 13:
+							reslide_effect ={$Duration:reslider<?php echo $sliderID;?>["params"]["effect"]["duration"],$Zoom:11,$Easing:{$Zoom:$JssorEasing$.$EaseInCubic,$Opacity:$JssorEasing$.$EaseOutQuad},$Opacity:2};
+							break;
+						case 14:
+							reslide_effect ={$Duration:reslider<?php echo $sliderID;?>["params"]["effect"]["duration"],x:0.3,y:0.3,$Cols:2,$Rows:2,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$ChessMode:{$Column:3,$Row:12},$Easing:{$Left:$JssorEasing$.$EaseInCubic,$Top:$JssorEasing$.$EaseInCubic,$Opacity:$JssorEasing$.$EaseLinear},$Opacity:2};
+							break;
+						case 15:
+							reslide_effect ={$Duration:reslider<?php echo $sliderID;?>["params"]["effect"]["duration"],$Delay:20,$Clip:3,$SlideOut:true,$Easing:{$Clip:$JssorEasing$.$EaseOutCubic,$Opacity:$JssorEasing$.$EaseLinear},$Assembly:260,$Opacity:2};
+							break;
 					};
 
 				
@@ -426,10 +441,9 @@ function reslider_front_end($_id,$_slider,$_reslides) {
 						width: '100%',
 						top: '50%',
 						transform: 'translateY(-50%)',
-						position: 'relative'
+						position: 'absolute'
 					});
-				}
-				else {
+				} else {
 					jQuery(this).css({
 						height: '100%',
 						left: '50%',

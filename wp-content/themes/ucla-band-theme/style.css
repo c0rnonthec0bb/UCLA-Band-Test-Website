@@ -1,0 +1,25 @@
+/*
+Theme Name: UCLA Band Theme
+Author: Adam Cobb
+Description: The wordpress theme for uclaband.com
+Version: 1.0
+*/
+
+.mobileHtml {
+    overflow-y: hidden;
+}
+
+.mobileBody {
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling:touch;
+}
+
+#home-sliders .reslide_arrow_left{
+    display: none !important;
+}
+
+#home-sliders .reslide_arrow_right{
+    display: none !important;
+}
